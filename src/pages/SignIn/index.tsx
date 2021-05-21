@@ -14,10 +14,10 @@ const SignIn: React.FC = () => {
   <Container>
     <Image source = {logoImg }/>
     <Title>Faça seu Login</Title> 
-    <Input name = "E-mail" icon = "mail" placeholder = "E-mail" 
-    placeholderTextColor = "#666360" />
-    <Input name = "Senha" icon = "lock" placeholder = "Senha" 
-    placeholderTextColor = " #666360"/>
+    <Input name = "email" icon = "mail" placeholder = "E-mail" />
+
+    <Input name = "senha" icon = "lock" placeholder = "Senha"/>
+
     <Button>Entrar</Button>
   </Container>
   );

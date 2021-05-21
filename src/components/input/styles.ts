@@ -15,12 +15,12 @@ export const Container = styled.View `
 `;
 //um elemento do lado do outro flex-direction:row
 export const TextInput = styled.TextInput `
-  flex: 1;
-  font-family: 'RobotoSlab-Regular';
+  flex: 1; 
   color: #fff;
   font-size: 16px;
+  font-family: 'RobotoSlab-Regular';
 `;
+
 export const Icon = styled(FeatherIcon)`
   margin-right: 16px;
-  
 `;
