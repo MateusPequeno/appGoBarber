@@ -8,7 +8,7 @@ const Auth = createStackNavigator();
 
 const AuthRoutes: React.FC = () => (
 <Auth.Navigator screenOptions = {{
-  //headerShown: false , 
+  headerShown: false , 
   headerTintColor : "#000000",
   cardStyle: { backgroundColor: '#312e38'}
 }}>
