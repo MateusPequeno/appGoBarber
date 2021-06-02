@@ -15,7 +15,7 @@ yarn add @react-navigation/stack
 yarn react-native link
 yarn add react-native-vector-icons
 config icons, android/app/build.graddle e inserir o cód q está no final do arquivo
-yarn add
+yarn add @unform/core @unform/mobile
 */
 import React from 'react';
 import { View, StatusBar } from 'react-native';
